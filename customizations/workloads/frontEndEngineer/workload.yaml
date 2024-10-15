@@ -76,18 +76,6 @@ tasks:
       workingDirectory: C:\\provisioning\\temp
     runAsUser: true
   - name: git-clone
-    description: "Clone the eShopRepository repository"
-    parameters:
-      repositoryUrl: "https://github.com/Evilazaro/eShop"
-      branch: "main"
-      directory: $"C:\projects\eShop"
-  - name: git-clone
-    description: "Clone the DevBox repository"
-    parameters:
-      repositoryUrl: "https://github.com/Evilazaro/MicrosoftDevBox"
-      branch: "main"
-      directory: $"C:\projects\MicrosoftDevBox"
-  - name: git-clone
     description: "Clone the Contoso Traders repository"
     parameters:
       repositoryUrl: "https://github.com/Evilazaro/ContosoTraders.git"
